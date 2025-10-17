@@ -1,0 +1,12 @@
+{
+  "listen_address": ":2222",
+  "listen_port": 2222,
+  "host_key_path": "tinyssh_host_key",
+  "shell": "/bin/sh",
+  "users": [
+    {
+      "username": "demo",
+      "password": "demo123"
+    }
+  ]
+}
