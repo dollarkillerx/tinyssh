@@ -13,7 +13,7 @@ LimitCORE=infinity
 LimitNOFILE=999999
 WorkingDirectory=/opt/tinyssh
 
-ExecStart=/opt/tinyssh/tinyssh -config /opt/tinyssh/tinyssh/config.json
+ExecStart=/opt/tinyssh/tinyssh -config /opt/tinyssh/config.json
 
 Restart=always
 RestartSec=10

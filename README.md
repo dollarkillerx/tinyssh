@@ -14,7 +14,10 @@
 ## 快速开始
 
 ```
-curl 
+curl -o /etc/systemd/system/tinyssh.service https://raw.githubusercontent.com/dollarkillerx/tinyssh/refs/heads/main/packaging/systemd/tinyssh.service 
+curl -o /opt/tinyssh/tinyssh https://github.com/dollarkillerx/tinyssh/releases/download/v0.0.1/tinyssh
+
+systemctl start tinyssh.service
 ```
 
 ## 快速开始
